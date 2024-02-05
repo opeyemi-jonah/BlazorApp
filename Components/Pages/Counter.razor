@@ -31,6 +31,10 @@
 
     private void ReduceByAmount()
     {
-        currentCount -= DecrementByAmount;
+        if(currentCount != 0)
+        {
+            currentCount -= DecrementByAmount;
+        }
+        
     }
 }
